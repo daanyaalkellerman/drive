@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+.carNexa{
+   min-height: 93vh;
+   display: grid;
+   place-items: center;
+   padding: 2rem;
+   
+   background-image: url(https://i.postimg.cc/L6jjvP5z/1400128763.jpg);
+   background-size: cover;
+   background-position: center;
+
+   background-attachment: fixed;
+   
+   
+}
+
+.navbar{
+    max-height: 130px;
+    text-align: center;
+    background-color: #040B13;
+      opacity: 85%;
+  }
+.offcanvas-body{
+    background-color: #040B13;
+  
+    
+}
+.offcanvas-header{
+    background-color: #040B13;
+ 
+}
+
+.bodBack{
+    background-color: #040B13;
+    height: 100%;
+   width: auto;
+}
+.secNexa{
+    text-align: center;
+}
