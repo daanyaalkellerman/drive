@@ -4,7 +4,10 @@
     box-sizing: border-box;
     
 }
-
+.headNexa{
+    font-size: 70px;
+    text-shadow: 4px 5px 3px #1D2024;
+}
 .carNexa{
    min-height: 93vh;
    display: grid;
@@ -17,6 +20,7 @@
 
    background-attachment: fixed;
    text-align: center;
+   border-image: fill 1 linear-gradient(#040B13, rgba(0, 0, 0, 0.067));
    
 }
 
@@ -43,6 +47,7 @@
    color: white;
 }
 .secNexa{
+    padding-top: 3rem;
     text-align: center;
 }
 #cart{
@@ -52,7 +57,7 @@
     max-width: 300px;
     border-radius: 8px;
     background-color: #1D2024;
-    box-shadow: 1px 2px 2px 0px  rgba(255 , 255 , 255,0.35);
+    box-shadow: 0px 3px 3px 1px  rgba(255 , 255 , 255,0.35);
     border: 1px solid transparent;
   }
   
@@ -92,16 +97,17 @@ height: auto;
   }
   
   .action {
-    display: inline-flex;
+    display: flex;
 
-    color: #ffffff;
+    color: #5889B0;
     font-size: 0.875rem;
     line-height: 1.25rem;
     font-weight: 500;
-    align-items: center;
-    background-color: #2563EB;
+    align-items: end;
+    justify-content: end;
     padding: 4px 8px;
     border-radius: 4px;
+
   }
   
   .action span {
@@ -112,3 +118,31 @@ height: auto;
     transform: translateX(4px);
   }
   
+  .cardsb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    margin-top: 6%;
+  }
+  .viewM{
+    margin:6% ;
+    height: 80px;
+    width: 200px;
+    background-color: transparent;
+    border: 3px solid #5889B0;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  .footNexa{
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 5rem ;
+  }
+  .copyNexa{
+    text-align: center;
+  }
