@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutNexa{
+    min-height: 93vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    
+    background-image: url(https://i.postimg.cc/L6jjvP5z/1400128763.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+    background-attachment: fixed;
+    text-align: center;
+    border-image: fill 1 linear-gradient(#040B13, rgba(0, 0, 0, 0.067));
+    
+}
+
+.navbar{
+    max-height: 130px;
+    text-align: center;
+    background-color: #040B13;
+      opacity: 85%;
+  }
+.offcanvas-body{
+    background-color: #040B13;
+  
+    
+}
+.offcanvas-header{
+    background-color: #040B13;
+ 
+}
+
+.bodBack{
+    background-color: #040B13;
+    height: 100%;
+   width: auto;
+   color: white;
+}
+.footNexa{
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 5rem ;
+  }
+  .copyNexa{
+    text-align: center;
+  }
