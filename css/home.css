@@ -141,7 +141,7 @@ height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
     padding: 1rem ;
   }
   .copyNexa{
@@ -150,6 +150,9 @@ height: auto;
   @media screen and (max-width: 480px) and (min-width: 400px) {
     .headNexa{
       font-size: 55px;}
+      .footNexa{
+        gap: 40px;
+      }
   }
   @media (max-width:380px) {
     .headNexa{
@@ -162,5 +165,8 @@ height: auto;
    background-position: center;
    background-attachment: inherit;
    background-repeat: no-repeat;
+    }
+    .footNexa{
+      gap: 30px;
     }
   }

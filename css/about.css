@@ -5,6 +5,7 @@
 }
 
 .aboutNexa{
+    margin-top: 50px;
     min-height: 93vh;
     display: grid;
     place-items: center;
@@ -38,7 +39,6 @@
 
 .bodBack{
     background-color: #040B13;
-    height: 100%;
    width: auto;
    color: white;
 }
@@ -47,9 +47,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 400px;
-    padding: 5rem ;
+    gap: 40px;
+    padding: 1rem ;
   }
   .copyNexa{
     text-align: center;
+  }
+  @media screen and (max-width: 480px) and (min-width: 400px) {
+    .aboutH{
+      font-size: 40px;}
+  }
+  @media (max-width:380px) {
+    .aboutNexa{
+      min-height: 90vh;
+      display: grid;
+   place-items: center;
+   background-size: cover;
+   background-position: center;
+   padding: 0;
+    }
+    .aboutH{
+        font-size: 35px;
+        margin-bottom: -100px;
+    }
+    .aboutWords{
+        font-size: 15px;
+        margin-bottom: 10px
+    }
+    .footNexa{
+        border-top: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 0 ;
+      }
+      html{
+        height: 100vh;
+      }
   }
