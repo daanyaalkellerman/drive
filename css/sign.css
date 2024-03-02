@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    max-height: 130px;
+    text-align: center;
+    background-color: #040B13;
+      opacity: 85%;
+  }
+.offcanvas-body{
+    background-color: #040B13;
+  
+    
+}
+.offcanvas-header{
+    background-color: #040B13;
+ 
+}
+
+.bodBack{
+    background-color: #040B13;
+   width: auto;
+   color: white;
+}
+
+.signup{
+    margin-top: 50px;
+    min-height: 93vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    
+    background-image: url(https://i.postimg.cc/66gMXvhq/tablet-2560x1700.jpg);
+    background-size: cover;
+    background-position: center;
+ 
+  
+    text-align: center;
+    border-image: fill 1 linear-gradient(#040B13, rgba(0, 0, 0, 0.067));
+    
+}
+.form {
+    max-width: 380px;
+    width: 100%;
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 20px;
+    box-shadow: 0px 2px 3px 2px rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1a202c;
+  }
+  
+  .label {
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1rem;
+    color: #4a5568;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #cbd5e0;
+  }
+  
+  .input:valid {
+    border: 1px solid green;
+  }
+  
+  .input:invalid {
+    border: 1px solid rgba(14, 14, 14, 0.205);
+  }
+  
+  .submit {
+    background-color: #040B13;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .submit:hover{
+    background-color: #5889B0;
+    color:#040B13 ;
+  }
+      
+  .footNexa{
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 1rem ;
+  }
+  .copyNexa{
+    text-align: center;
+  }
