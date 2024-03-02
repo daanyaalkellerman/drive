@@ -120,6 +120,7 @@ height: auto;
   
   .cardsb{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 37px;
@@ -140,9 +141,26 @@ height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 400px;
-    padding: 5rem ;
+    gap: 40px;
+    padding: 1rem ;
   }
   .copyNexa{
     text-align: center;
+  }
+  @media screen and (max-width: 480px) and (min-width: 400px) {
+    .headNexa{
+      font-size: 55px;}
+  }
+  @media (max-width:380px) {
+    .headNexa{
+    font-size: 30px;}
+    .carNexa{
+      min-height: 40vh;
+      display: grid;
+   place-items: center;
+   background-size: cover;
+   background-position: center;
+   background-attachment: inherit;
+   background-repeat: no-repeat;
+    }
   }
