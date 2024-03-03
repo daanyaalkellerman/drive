@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.userH{
+    display: flex;
+    gap: 60px;
+}
+.adminNexa{
+    margin-top: 50px;
+    min-height: 93vh;
+    /* display: grid;
+    place-items: center; */
+    padding: 0;
+ /* for checkout image */
+    /* background-image: url(https://i.postimg.cc/vBsW0q9g/Upscales-ai-1709458709523.webp); */
+    /* background-size: cover;
+    background-position: center; */
+ 
+  
+    text-align: center;
+    border-image: fill 1 linear-gradient(#040B13, rgba(0, 0, 0, 0.067));
+    
+}
+
+.navbar{
+    max-height: 130px;
+    text-align: center;
+    background-color: #040B13;
+      opacity: 85%;
+  }
+.offcanvas-body{
+    background-color: #040B13;
+  
+    
+}
+.offcanvas-header{
+    background-color: #040B13;
+ 
+}
+
+.bodBack{
+    background-color: #040B13;
+   width: auto;
+   color: white;
+}
+.footNexa{
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 1rem ;
+  }
+  .copyNexa{
+    text-align: center;
+  }
+  img{
+    width: 70px;
+  }
+  
+
+  .delBtn {
+   background-color: #5889B0;
+   padding: 4px 8px;
+    color: #fff;
+   border: 1px solid black;
+  }
+  .editBtn {
+   background-color: #040B13;
+   padding: 4px 8px;
+    color: #fff;
+   border: 1px solid black;
+  }
+  
+  @media (max-width:600px){
+    .table thead{
+        display: none !important;
+      }
+      
+  
+       .table, .table tbody, .table tr, .table td{
+        display: block !important;
+        width: 100% !important;
+        
+      }
+  
+      .table tr{
+        background: black;
+        margin-bottom: 20px !important;
+      }
+  
+      .table tbody{
+        background: white;
+      }
+  
+      .table tbody tr td{
+        text-align: right;
+        position: relative;
+        width: 100%;
+      }
+  
+      .table td:before{
+        display: block;
+        color: #040B13;
+        font-size: 20px;
+        content: attr(data-label) !important;
+        text-align: left;
+      }
+  }
