@@ -55,11 +55,48 @@
             <h2>User Information</h2>
             <button type="button" class="btn btn-secondary my-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Add User</button>
         </div>
-
-
-
-
-
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @click="setTimeout()"></button>
+                </div>
+                <div class="modal-body">
+                  <form @submit.prevent="addUser" method="POST" class="mx-4 my-5">
+                        <div class="row">
+                <div class="col">
+                    <p>FirstName</p>
+                  <input type="text" class="form-control" v-model="register.firstName" name="firstName"  aria-label="First name" required="">
+                </div>
+              </div>
+                <div class="row">
+                  <div class="col">
+                      <p>LastName</p>
+                    <input type="text" class="form-control" v-model="register.lastName" name="lastName" aria-label="Last name" required="">
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col">
+                    <p>Email</p>
+                  <input type="text" class="form-control" v-model="register.userEmail" name="userEmail"  aria-label="First name" required="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>Password</p>
+                  <input type="password" class="form-control"  v-model="register.userPass" name="userPass" aria-label="Last name" required="">
+                </div>
+              </div>
+              <div class="modal-footer">
+              <button type="submit" class="btn btn-dark"><span id="logs">Create User</span></button>
+            </div>
+        
+        </form>
+                </div> 
+            </div>
+            </div>
+            </div>
         <!-- USER TABLE -->
         <div class="container">
             <div class="row">

@@ -75,6 +75,57 @@
    border: 1px solid black;
   }
   
+  .modal-content{
+    background: black;
+  }
+  .modal-body p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .modal-body input{
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+      height: 40px;
+      color: black;
+  
+  }
+  .modal-body textarea{
+    justify-content: end;
+    width: 100%;
+      margin-bottom: 20px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      height: 40px;
+      color: black;
+    height: 150px;
+  }
+
+  .modal-body form input{
+    border-radius: 0px;
+  }
+  
+  .modal-header{
+    color: black;
+    border-bottom: 0px;
+  }
+  
+  .modal-footer{
+    border-top: 0px;
+  }
+  
+  .btn-close{
+    background-color: black;
+  }
+  
   @media (max-width:600px){
     .table thead{
         display: none !important;
@@ -90,6 +141,7 @@
       .table tr{
         background: black;
         margin-bottom: 20px !important;
+
       }
   
       .table tbody{
@@ -108,5 +160,6 @@
         font-size: 20px;
         content: attr(data-label) !important;
         text-align: left;
+        border-bottom: 1px solid black;
       }
   }
