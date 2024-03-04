@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* .headNexa{
+    font-size: 70px;
+    text-shadow: 4px 5px 3px #1D2024;
+} */
+/* .carNexa{
+   min-height: 93vh;
+   display: grid;
+   place-items: center;
+   padding: 2rem;
+   
+   background-image: url(https://i.postimg.cc/L6jjvP5z/1400128763.jpg);
+   background-size: cover;
+   background-position: center;
+
+   background-attachment: fixed;
+   text-align: center;
+   border-image: fill 1 linear-gradient(#040B13, rgba(0, 0, 0, 0.067));
+   
+} */
+
+.navbar{
+    max-height: 130px;
+    text-align: center;
+    background-color: #040B13;
+      opacity: 85%;
+  }
+.offcanvas-body{
+    background-color: #040B13;
+  
+    
+}
+.offcanvas-header{
+    background-color: #040B13;
+ 
+}
+
+.bodBack{
+    background-color: #040B13;
+    height: 100%;
+   width: auto;
+   color: white;
+}
+.prof{
+    justify-content: center !important;
+}
+.profile{
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: hidden; */
+    margin-top: 130px;
+    min-height: 120vh;
+}
+
+.card{
+    max-width: 100%;
+}
+
+.card-body{
+    height: 445px;
+    background-color: #5889B0;
+    color: white;
+}
+
+.card-body img{
+    margin-top: 15px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.logOut{
+    margin-top: 30px !important;
+}
+
+.about{
+    max-width: 100%;
+}
+
+.aboutRow{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.aboutHead{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-8{
+    word-wrap: break-word;   
+    font-size: 18px;
+}
+.logBut{
+            text-align: center;
+            text-decoration: none;
+            max-width: 100px !important;
+            color: rgb(0, 0, 0);
+        }
+
+        .logBut:hover{
+            color: rgb(0, 0, 0);
+           opacity: 90%;
+        }
+
+        .footNexa{
+            border-top: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 1rem;
+          }
+          .copyNexa{
+            text-align: center;
+          }
